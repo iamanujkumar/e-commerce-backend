@@ -450,7 +450,7 @@ cloudinary.config({
 
 app.use(express.json());
 const corsOptions = {
-  origin: 'https://e-commerce-frontend-bice-nine.vercel.app/',
+  origin: 'https://e-commerce-frontend-bice-nine.vercel.app',
   methods: ["GET", "POST", "PUT", "DELETE"],
   optionsSuccessStatus: 200
 };
